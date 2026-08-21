@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name</title>
+  <style>
+    /* Global Reset & Typography */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #000;
+      background-color: #fff;
+      padding: 40px;
+    }
+
+    /* Fixed Navigation Bar (Right-aligned like Patrick Collison's site) */
+    nav {
+      position: fixed;
+      top: 40px;
+      right: 40px;
+      text-align: right;
+    }
+
+    .site-title {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .nav-links {
+      list-style: none;
+    }
+
+    .nav-links li {
+      margin-bottom: 4px;
+    }
+
+    .nav-links a {
+      color: #0000EE; /* Classic blue hyperlink color */
+      text-decoration: underline;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a:visited {
+      color: #551A8B;
+    }
+
+    .nav-links a.active {
+      font-weight: bold;
+    }
+
+    /* Main Content Container */
+    main {
+      margin-right: 220px; /* Leaves space so text doesn't overlap the fixed nav */
+      max-width: 650px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    /* Native Video Container Styling */
+    video {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Sidebar (Keep this exact block on every HTML page) -->
+  <nav>
+    <span class="site-title">Your Name</span>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">About Me</a></li>
+      <li><a href="films.html">Films</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="written-works.html">Written Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Main Content Area -->
+  <main>
+    <h1>About Me</h1>
+    <p>Welcome! I am a filmmaker, photographer, and writer based in [Your City].</p>
+    <p>Write your intro here. Keep it short, minimal, and focused on your core work.</p>
+  </main>
+
+</body>
+</html>
